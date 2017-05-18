@@ -1,0 +1,37 @@
+My First R Presentation
+========================================================
+author: Sharon L  
+font-family: 'Helvetica'
+date: May 17, 2017
+autosize: true
+
+My First Slide
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(sunspot.month)
+```
+
+Monthly Sunspot, from 1749 to "Present"
+========================================================
+
+```{r, echo=FALSE}
+plot(sunspot.month)
+```
+
+
+========================================================
+
+<br></br>
+<br></br>
+<center><p><b><h1 align="center"> The End! </h1></b></p></center>
+
